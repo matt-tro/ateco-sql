@@ -5,7 +5,7 @@ This repository contains a SQL script of Ateco codes currently present in Italy.
 
 The Ateco code is an alphanumeric combination that identifies an economic activity. The letters identify the economic macro-sector while the numbers (from two up to six figures) represent, with different degrees of detail, the specific joints and sub-categories of the sectors themselves. From 1 January 2008 the new Ateco 2007 classification is in force, approved by the Istat (National Statistics Institute) in close collaboration with the Revenue Agency, the Chambers of Commerce and other bodies, ministries and entrepreneurial associations concerned. With the Ateco 2007 codes, the same classification of economic activities for statistical, tax and contributory purposes is therefore adopted, in a process of simplifying the information managed by public administrations and institutions.
 
-The Ateco Code is represented by:
+The Ateco code is represented by:
 - Sections
 - Divisions
 - Groups
@@ -13,7 +13,7 @@ The Ateco Code is represented by:
 - Categories
 - Sub-categories
 
-An example of ateco classification: 01.11.10 - COLTIVAZIONE DI CEREALI (ESCLUSO IL RISO)
+An example of Ateco classification: 01.11.10 - COLTIVAZIONE DI CEREALI (ESCLUSO IL RISO)
 
 | &nbsp; | Codice	| Definizione
 | ------------- | ------------- | ------------- |
