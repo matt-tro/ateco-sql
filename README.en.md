@@ -1,4 +1,6 @@
 # ateco-sql
+[![it](https://img.shields.io/badge/lang-it-red.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.md)
+
 SQL script to handle Ateco Italian codes
 
 This repository contains a SQL script of Ateco codes currently present in Italy (updated to 2022).
