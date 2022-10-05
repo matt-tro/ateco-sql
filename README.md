@@ -1,7 +1,6 @@
 # ateco-sql
 [![it](https://img.shields.io/badge/lang-it-red.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.md)
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.en.md)
-[![](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/matt-tro/ateco-sql/blob/master/README.fr.md)
 
 Script SQL per gestire i codici Ateco italiani.
 
