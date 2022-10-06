@@ -16,11 +16,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `ateco_categorie` (
-  `id` int(11) NOT NULL,
-  `id_classe` int(11) NOT NULL,
-  `categoria` varchar(7) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `id_classe` INT(11) NOT NULL,
+  `categoria` VARCHAR(7) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_categorie`
@@ -956,11 +956,11 @@ INSERT INTO `ateco_categorie` (`id`, `id_classe`, `categoria`, `descrizione`) VA
 --
 
 CREATE TABLE `ateco_classi` (
-  `id` int(11) NOT NULL,
-  `id_gruppo` int(11) NOT NULL,
-  `classe` varchar(5) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `id_gruppo` INT(11) NOT NULL,
+  `classe` VARCHAR(5) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_classi`
@@ -1590,11 +1590,11 @@ INSERT INTO `ateco_classi` (`id`, `id_gruppo`, `classe`, `descrizione`) VALUES
 --
 
 CREATE TABLE `ateco_divisioni` (
-  `id` int(11) NOT NULL,
-  `id_sezione` int(11) NOT NULL,
-  `divisione` varchar(4) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `id_sezione` INT(11) NOT NULL,
+  `divisione` VARCHAR(4) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_divisioni`
@@ -1697,11 +1697,11 @@ INSERT INTO `ateco_divisioni` (`id`, `id_sezione`, `divisione`, `descrizione`) V
 --
 
 CREATE TABLE `ateco_gruppi` (
-  `id` int(11) NOT NULL,
-  `id_divisione` int(11) NOT NULL,
-  `gruppo` varchar(4) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `id_divisione` INT(11) NOT NULL,
+  `gruppo` VARCHAR(4) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_gruppi`
@@ -1988,10 +1988,10 @@ INSERT INTO `ateco_gruppi` (`id`, `id_divisione`, `gruppo`, `descrizione`) VALUE
 --
 
 CREATE TABLE `ateco_sezioni` (
-  `id` int(11) NOT NULL,
-  `sezione` varchar(1) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `sezione` VARCHAR(1) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_sezioni`
@@ -2027,11 +2027,11 @@ INSERT INTO `ateco_sezioni` (`id`, `sezione`, `descrizione`) VALUES
 --
 
 CREATE TABLE `ateco_sottocategorie` (
-  `id` int(11) NOT NULL,
-  `id_categoria` int(11) NOT NULL,
-  `sottocategoria` varchar(8) NOT NULL,
-  `descrizione` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id` INT(11) NOT NULL,
+  `id_categoria` INT(11) NOT NULL,
+  `sottocategoria` VARCHAR(8) NOT NULL,
+  `descrizione` VARCHAR(255) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dump dei dati per la tabella `ateco_sottocategorie`
@@ -3328,37 +3328,37 @@ ALTER TABLE `ateco_sottocategorie`
 -- AUTO_INCREMENT per la tabella `ateco_categorie`
 --
 ALTER TABLE `ateco_categorie`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la tabella `ateco_classi`
 --
 ALTER TABLE `ateco_classi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la tabella `ateco_divisioni`
 --
 ALTER TABLE `ateco_divisioni`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la tabella `ateco_gruppi`
 --
 ALTER TABLE `ateco_gruppi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la tabella `ateco_sezioni`
 --
 ALTER TABLE `ateco_sezioni`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la tabella `ateco_sottocategorie`
 --
 ALTER TABLE `ateco_sottocategorie`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
